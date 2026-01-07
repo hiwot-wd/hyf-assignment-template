@@ -1,0 +1,41 @@
+<!-- @format -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hogwarts School of Witchcraft and Wizardry</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <style>
+      body {
+        background-color: #f0e6d2;
+        font-family: "Georgia", serif;
+        color: #3e2c1c;
+        margin: 0;
+        padding: 20px;
+      }
+      h1 {
+        background-color: burlywood;
+        padding: 15px;
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+      }
+      #houseImage {
+        margin-top: 20px;
+        width: 200px;
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hogwarts House Generator</h1>
+    <ul id="houses-List"></ul>
+    <input id="Student-Name" type="text" placeholder="Enter your name" />
+    <input id="Sort-Button" type="button" value="Sort Me!" />
+    <p id="house-Text"></p>
+    <img id="houseImage" alt="House Crest" />
+    <script src="hogwarts.js"></script>
+  </body>
+</html>
