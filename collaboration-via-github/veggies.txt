@@ -1,5 +1,7 @@
 Beetroot
 Carrot
-Mushroom
+Kale
 Spinach
 Tomato
+Zucchini
+Radish
